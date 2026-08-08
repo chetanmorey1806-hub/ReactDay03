@@ -1,7 +1,9 @@
 import { StrictMode } from 'react'
 import { createRoot } from 'react-dom/client'
 import './index.css'
-import Main from './Day05/Main'
+import Main from './Day06/Main'
+import 'bootstrap/dist/css/bootstrap.min.css';
+import 'bootstrap/dist/js/bootstrap.bundle.min.js';
 // import App from './App.jsx'
 // import DemoOne from './day01';
 // import Day03 from './Day03/MainDay03'
@@ -13,6 +15,7 @@ createRoot(document.getElementById('root')).render(
     {/* <DemoOne/> */}
     {/* <Day03/> */}
    {/* <Day04/> */}
+   {/* <Main/> */}
    <Main/>
   </StrictMode>,
 )
