@@ -9,7 +9,8 @@ import 'bootstrap/dist/js/bootstrap.bundle.min.js';
 // import Day03 from './Day03/MainDay03'
 // import Day04 from './Day04/Main';
 // import Main from './Day06/Main'
-import Main from './Day07/Main';
+// import Main from './Day07/Main';
+import Main from './Day08/Main'
 
 createRoot(document.getElementById('root')).render(
   <StrictMode>
@@ -17,6 +18,7 @@ createRoot(document.getElementById('root')).render(
     {/* <DemoOne/> */}
     {/* <Day03/> */}
    {/* <Day04/> */}
+   {/* <Main/> */}
    {/* <Main/> */}
    {/* <Main/> */}
    <Main/>
