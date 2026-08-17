@@ -4,23 +4,32 @@ import './index.css'
 
 import 'bootstrap/dist/css/bootstrap.min.css';
 import 'bootstrap/dist/js/bootstrap.bundle.min.js';
+import Main from './Day10/Main';
+import { BrowserRouter } from 'react-router-dom';
+// import Counter from './Day09/Counter';
 // import App from './App.jsx'
 // import DemoOne from './day01';
 // import Day03 from './Day03/MainDay03'
 // import Day04 from './Day04/Main';
 // import Main from './Day06/Main'
 // import Main from './Day07/Main';
-import Main from './Day08/Main'
+// import Main from './Day08/Main'
 
 createRoot(document.getElementById('root')).render(
-  <StrictMode>
-    {/* <App /> */}
-    {/* <DemoOne/> */}
-    {/* <Day03/> */}
-   {/* <Day04/> */}
-   {/* <Main/> */}
-   {/* <Main/> */}
-   {/* <Main/> */}
-   <Main/>
-  </StrictMode>,
+  // <StrictMode>
+  //   {/* <App /> */}
+  //   {/* <DemoOne/> */}
+  //   {/* <Day03/> */}
+  //  {/* <Day04/> */}
+  //  {/* <Main/> */}
+  //  {/* <Main/> */}
+  //  {/* <Main/> */}
+  //  {/* <Main/> */}
+  //  {/* <Counter/> */}
+  //  {/* <Main/> */}
+  // </StrictMode>,
+
+  <BrowserRouter>
+    <Main/>
+  </BrowserRouter>
 )
